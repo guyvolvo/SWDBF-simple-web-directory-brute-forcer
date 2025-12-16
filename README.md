@@ -1,4 +1,6 @@
-# **Steps:** 
+# **Stages of production:** 
+
+///
 
 ### **Input**
 - Base URL
@@ -17,6 +19,8 @@
 - Found paths
 - Status codes
 - Errors / retries
+
+///
 
 ## Features Explained
 _Multi-Threading_
