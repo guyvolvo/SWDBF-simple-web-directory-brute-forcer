@@ -1,4 +1,4 @@
-# **Steps i will take to create this tool** 
+# **Steps:** 
 
 ### **Input**
 - Base URL
