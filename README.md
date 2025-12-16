@@ -52,6 +52,9 @@ python swdbf.py -u <URL> -w <WORDLIST> [OPTIONS]
 - -T, --threads - Number of worker threads (default: 10)
 - -h, --help - Show help message
 
+<img width="695" height="485" alt="image" src="https://github.com/user-attachments/assets/a71cf59b-d509-4411-9c0c-5742029a3adf" />
+
+
 _Performance Tips_
 5-10 threads: Safe, respectful scanning
 10-20 threads: Fast scanning for most targets
