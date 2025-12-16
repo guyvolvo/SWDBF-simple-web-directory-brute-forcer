@@ -11,7 +11,7 @@ from threading import Lock
 
 init(autoreset=True)
 running = True
-print_lock = Lock()  # Lock for thread-safe printing
+print_lock = Lock()  #Lock for thread-safe printing
 
 
 def signal_handler(sig, frame):
@@ -129,14 +129,14 @@ def brute_force(target, port, wordlist, timeout, threads):
 
     # Handling file exceptions
     except FileNotFoundError:
-        print(f"[!] Error: wordlist file '{wordlist}' not found")
+        print(f"[!]Error: wordlist file '{wordlist}' not found")
         sys.exit(1)
     except Exception as e:
-        print(f"[!] Error reading wordlist: {str(e)}")
+        print(f"[!]Error reading wordlist: {str(e)}")
         sys.exit(1)
 
     if running:
-        print("\n[*] Brute force complete!")
+        print("\n[*]Enumeration complete")
 
 
 if __name__ == "__main__":
